@@ -11,9 +11,28 @@ def flat_and_sort(array):
         
         return sorted(array)
 '''
+How does this solution ensure data immutability?
+    This soltion ensures data immutability because everything it outputs is based on everything that is inputed. 
+    In this case the array being within the function prevents immutability.
 
+Is this solution a pure function? Why or why not?
+    The solution is a pure function becuase there are no side effects.and the output is strictly dependent on the input 
 
+Is this solution a higher order function? Why or why not?
+    This soulution is not a higher order function becuase a function is not passed as a argument
+
+Would it have been easier to solve this problem using a different programming style?
+    For this particular problem. The functional programming method appears to be the easiest method
+    because we needed a function to flatten and sort which makes functional programming easier because 
+    it allows us to tell what we want it to do. 
+
+Why in particular is functional programming a helpful paradigm when solving this problem?
+    with functional programming it allows one to tell the program exactly what it wants to do. in this case
+    we were able to tell the program exactly what we wanted it to do which was flatten and sort. OPP doesnt allow for that
+    instead it allows us to tell the program how to obtain results by altering state through object.
 '''
+
+
 '''
 Object Oriented Prompt
 
@@ -70,5 +89,5 @@ Object Oriented Question Anwers
         
         3. OOP assisted with the solving for this problem because it used 3/4 pillars which, allowed for the 
             code to be cleaner with less repetition because it allows for reusability, flexibility and readability.
-            
+
 '''
