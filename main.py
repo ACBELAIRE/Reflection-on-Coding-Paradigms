@@ -42,3 +42,17 @@ class SebulbasPod(Podracer):
         other.condition = "Trashed"
 
 
+#Object Oriented Question Anwers
+
+        #1a. Inheritance was demonstrated because everyone of the classes inheirited the parent class Podracer
+        #   b.Abstraction was also demonstrated because it allows the cose to be reused  and each class 
+              #has the same interface
+        #   c.Abstraction was also present because boost mode is implemented a person may use boost mode,
+              #but doesnt understand the math behind it
+
+        #2. No, as I believe that this would be the easiest way to code this problem. using OOP
+            #because this method allows for more code flexibility and reusability and allows it to be easier 
+            #to read. as oppose to other methods which could be more repetitive and lengthy.
+        
+        #3. OOP assisted with the solving for this problem because it used 3/4 pillars which, allowed for the 
+            #code to be cleaner with less repetition because it allows for reusability, flexibility and readability.
