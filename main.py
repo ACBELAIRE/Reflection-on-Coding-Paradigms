@@ -8,8 +8,9 @@ def flat_and_sort(array):
     for item in array:
         for i in item:
             array.append(i)
-        
         return sorted(array)
+
+
 '''
 How does this solution ensure data immutability?
     This soltion ensures data immutability because everything it outputs is based on everything that is inputed. 
